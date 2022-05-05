@@ -24,7 +24,7 @@ jobs:
       - run:
           command: |
             python3 -m unittest -v
-workflow:
+workflows:
   version: 2
   all:
     jobs:
